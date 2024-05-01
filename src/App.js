@@ -33,7 +33,7 @@ function App() {
     <div className="Maindiv text-white">
       <div className="row d-flex justify-content-center align-items-center h-100">
         <div className="col-md-8 col-lg-6 col-xl-4">
-          <h3 className="mb-4 pb-1 fw-normal text-dark text-center">Check the weather forecast</h3>
+          <h3 className="m-4 pb-1 fw-normal text-dark text-center">Check the weather forecast</h3>
           <form onSubmit={getData}>
             <div className="CityInput d-flex rounded mb-5">
               <input type="search" required value={wcity} onChange={(e) => setWcity(e.target.value)} className="form-control rounded mx-1" placeholder="City" />
